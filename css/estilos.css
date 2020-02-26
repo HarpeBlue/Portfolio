@@ -35,6 +35,7 @@ h1
     font-size: 40px;
     line-height: 1.5em;
     color: white;
+    margin: 0;
 }
 h1 strong
 {
@@ -45,9 +46,9 @@ h1 strong
     background-color: #1b2127; 
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center;  */
+    align-items: center; 
     justify-content: space-between;
-    height: 90px;
+    height: 70px;
 }
 .header div, nav, ol
 {
@@ -86,6 +87,8 @@ figure
     background-repeat: no-repeat;
     background-position-x: right;
     background-color: #1b2127;
+    display: flex;
+    align-items: center;
 }
 .portfolio
 {
@@ -107,4 +110,22 @@ figure
 .project-imageContainer
 {
     width: 500px;
+}
+.footer
+{
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer img
+{
+    vertical-align: middle;
+}
+.footer a
+{
+    margin-right: 10px;
+    color: white;
 }
