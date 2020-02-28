@@ -278,3 +278,23 @@ object-fit: cover;
     align-items: inherit;
     flex-wrap: inherit;
 }
+
+
+/* desktop first que empieces desde el MQ mas grande */
+
+@media screen and (max-width:1024px) 
+{
+    
+}
+@media screen and (max-width:768px) 
+{
+
+}
+@media screen and (max-width:480px) 
+{
+
+}
+@media screen and (max-width:320px) 
+{
+
+}
